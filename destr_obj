@@ -1,0 +1,11 @@
+using UnityEngine;
+
+public class Destroy : MonoBehaviour
+{
+    // Этот метод вызывается один раз при старте игры
+    void Start()
+    {
+        // Удаляем текущий объект из игры
+        Destroy(gameObject); // Убедитесь, что точка с запятой стоит в конце
+    }
+}
